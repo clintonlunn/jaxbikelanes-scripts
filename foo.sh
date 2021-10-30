@@ -1,4 +1,4 @@
-query-overpass << EOF
+result=$(query-overpass << EOF
     [out:json] [timeout:25];
     area(3600119008) -> .area_0;
     (
@@ -12,4 +12,5 @@ query-overpass << EOF
     );
     (._;>;);
 out body;
-EOF
+EOF);
+echo $result > SomeFile.json;
