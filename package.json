@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node -e 'console.log(`hi`)'",
     "nw": "nwr --help",
-    "moo": "bash ./downloadData.sh"
+    "download": "bash ./downloadData.sh"
   },
   "dependencies": {
     "query-overpass": "latest"
