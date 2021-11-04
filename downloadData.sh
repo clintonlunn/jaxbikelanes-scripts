@@ -13,4 +13,4 @@ result=$(query-overpass << EOF
     (._;>;);
 out body;
 EOF);
-echo $result > SomeFile.json;
+echo $result > JaxBikeLanes.json;
